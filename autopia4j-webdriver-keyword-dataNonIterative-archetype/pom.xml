@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.autopia4j.framework</groupId>
+  <artifactId>autopia4j-keyword-dataNonIterative-archetype</artifactId>
+  <version>1.0.0</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>autopia4j keyword and data driven (non-iterative) implementation archetype</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.4</version>
+      </extension>
+    </extensions>
+	
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-resources-plugin</artifactId>
+	      <version>3.0.2</version>
+	      <configuration>
+	        <addDefaultExcludes>false</addDefaultExcludes>
+	      </configuration>
+	    </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  
+  <url>https://bitbucket.org/autopiateam/autopia4j-webdriver</url>
+  <description>autopia4j keyword and data driven (non-iterative) implementation archetype</description>
+  <organization>
+  	<name>Autopia Team</name>
+  	<url>https://bitbucket.org/autopiateam</url>
+  </organization>
+  <issueManagement>
+  	<system>BitBucket</system>
+  	<url>https://bitbucket.org/autopiateam/autopia4j-webdriver/issues?status=new&amp;status=open</url>
+  </issueManagement>
+</project>
