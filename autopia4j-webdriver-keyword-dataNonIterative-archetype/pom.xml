@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.autopia4j.framework</groupId>
-  <artifactId>autopia4j-keyword-dataNonIterative-archetype</artifactId>
+  <artifactId>autopia4j-webdriver-keyword-dataNonIterative-archetype</artifactId>
   <version>1.0.0</version>
   <packaging>maven-archetype</packaging>
 
@@ -41,7 +41,7 @@
     </pluginManagement>
   </build>
   
-  <url>https://bitbucket.org/autopiateam/autopia4j-webdriver</url>
+  <url>https://bitbucket.org/autopiateam/autopia4j-webdriver-archetypes</url>
   <description>autopia4j keyword and data driven (non-iterative) implementation archetype</description>
   <organization>
   	<name>Autopia Team</name>
@@ -49,6 +49,6 @@
   </organization>
   <issueManagement>
   	<system>BitBucket</system>
-  	<url>https://bitbucket.org/autopiateam/autopia4j-webdriver/issues?status=new&amp;status=open</url>
+  	<url>https://bitbucket.org/autopiateam/autopia4j-webdriver-archetypes/issues?status=new&amp;status=open</url>
   </issueManagement>
 </project>
