@@ -3,18 +3,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.autopia4j.framework</groupId>
-  <artifactId>autopia4j-webdriver-cucumber-basic-archetype</artifactId>
+  <artifactId>autopia4j-webdriver-cucumber-archetype</artifactId>
   <version>1.0.0</version>
   <packaging>maven-archetype</packaging>
 
-  <name>autopia4j basic cucumber implementation archetype</name>
+  <name>autopia4j cucumber implementation archetype</name>
   <url>https://bitbucket.org/autopiateam/autopia4j-webdriver-archetypes</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <description>autopia4j basic cucumber implementation archetype</description>
+  <description>autopia4j cucumber implementation archetype</description>
   <organization>
   	<name>Autopia Team</name>
   	<url>https://bitbucket.org/autopiateam</url>
