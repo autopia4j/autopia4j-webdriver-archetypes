@@ -17,4 +17,5 @@ public class GeneralFlows extends ReusableLibrary {
 	}
 	
 	// Put your flow methods here (must be public void methods)
+	// Use the "dataTable" object within these methods to access your test data
 }

@@ -19,4 +19,5 @@ public class LoginPage extends ReusableLibrary {
 	}
 	
 	// Put your page methods here (must be public void methods)
+	// Use the "dataTable" object within these methods to access your test data
 }
