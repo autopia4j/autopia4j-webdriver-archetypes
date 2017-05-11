@@ -38,7 +38,6 @@
       <directory></directory>
       <includes>
         <include>.gitignore</include>
-        <include>test.run.configurations.xls</include>
       </includes>
     </fileSet>
   </fileSets>
