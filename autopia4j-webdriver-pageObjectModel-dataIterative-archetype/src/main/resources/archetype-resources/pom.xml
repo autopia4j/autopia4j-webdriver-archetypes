@@ -7,7 +7,7 @@
   <version>${version}</version>
   <packaging>jar</packaging>
 
-  <name>autopia4j basic page object model implementation</name>
+  <name>autopia4j page object model and data driven (iterative) implementation</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,5 +41,5 @@
   		<scope>test</scope>
   	</dependency>
   </dependencies>
-  <description>autopia4j basic page object model implementation</description>
+  <description>autopia4j page object model and data driven (iterative) implementation</description>
 </project>
