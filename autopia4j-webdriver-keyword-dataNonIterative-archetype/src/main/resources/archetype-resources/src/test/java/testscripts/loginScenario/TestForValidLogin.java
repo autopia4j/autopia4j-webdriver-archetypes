@@ -20,6 +20,7 @@ public class TestForValidLogin extends KeywordNonIterativeTestScript {
 		WebDriverTestParameters testParameters =
 				new WebDriverTestParameters(currentModule, currentTest);
 		testParameters.setCurrentTestDescription("Test for login with valid user credentials");
+		// Specify other test parameters as appropriate here
 		
 		KeywordNonIterativeDriverScript driverScript = new KeywordNonIterativeDriverScript(testParameters);
 		driverScript.driveTestExecution();

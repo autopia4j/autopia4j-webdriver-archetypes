@@ -20,6 +20,7 @@ public class TestForValidLogin extends KeywordSubIterativeTestScript {
 		WebDriverTestParameters testParameters =
 									new WebDriverTestParameters(currentModule, currentTest);
 		testParameters.setCurrentTestDescription("Test for login with valid user credentials");
+		// Specify other test parameters as appropriate here
 		
 		KeywordSubIterativeDriverScript driverScript = new KeywordSubIterativeDriverScript(testParameters);
 		driverScript.driveTestExecution();
